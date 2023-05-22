@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #000000;
 }
 
 textarea {
@@ -10,6 +11,11 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+}
+
+header {
+  background-color: #4f31f6;
+  color: #000000;
 }
 
 .description {
@@ -25,8 +31,8 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000000;
+  color: #fefbfb;
   border-top: 1px dashed #000000;
 }
 
@@ -36,7 +42,7 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #6951f6;
   color: white;
 }
 
@@ -49,7 +55,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #2e7484;
   color: white;
 }
 

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("#currentDay").text(dayjs().format("MMMM Do YYYY, h:mm:ss a"));
+  $("#currentDay").text(dayjs().format("dddd M/D/YY"));
 
   $(".saveBtn").on("click", function () {
     console.log(this);
